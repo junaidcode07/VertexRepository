@@ -3,7 +3,7 @@
 @import './app/app.css';
 
 html { scroll-behavior: smooth; scroll-padding-top: 24px; }
-body { margin: 0; background: #f7f6f1; }
+body { margin: 0; background: #fff; }
 button, a { -webkit-tap-highlight-color: transparent; }
-:focus-visible { outline: 2px solid #ed7435; outline-offset: 4px; }
-::selection { background: #ed7435; color: #252b29; }
+:focus-visible { outline: 2px solid #d99c00; outline-offset: 4px; }
+::selection { background: #f5b000; color: #0c3156; }

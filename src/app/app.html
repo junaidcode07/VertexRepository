@@ -9,15 +9,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#home" aria-label="Vertex Construction and Engineering home" (click)="closeMenu()">
-        <svg class="brand-mark" viewBox="0 0 124 112" aria-hidden="true" focusable="false">
-          <path d="M0 9h31l29 51 20-34h33L60 112z" fill="currentColor" />
-          <path d="M79 36h34L77 91l-17-29z" fill="#f5b000" />
-        </svg>
-        <span class="brand-lockup">
-          <span class="brand-name">VERTEX</span>
-          <span class="brand-subtitle">CONSTRUCTION &amp; ENGINEERING</span>
-          <span class="brand-tagline">Building Tomorrow, Together · www.vertexce.org</span>
-        </span>
+        <img class="brand-image" src="assets/header.png" alt="Vertex Construction &amp; Engineering — Building Tomorrow, Together">
       </a>
 
       <button class="menu-toggle" type="button" (click)="toggleMenu()" [attr.aria-expanded]="menuOpen()" aria-controls="primary-navigation" aria-label="Toggle navigation">
@@ -146,25 +138,16 @@
   <footer class="site-footer">
     <div class="container footer-main">
       <a class="brand footer-brand" href="#home" aria-label="Vertex Construction and Engineering home">
-        <svg class="brand-mark" viewBox="0 0 124 112" aria-hidden="true" focusable="false">
-          <path d="M0 9h31l29 51 20-34h33L60 112z" fill="currentColor" />
-          <path d="M79 36h34L77 91l-17-29z" fill="#f5b000" />
-        </svg>
-        <span class="brand-lockup">
-          <span class="brand-name">VERTEX</span>
-          <span class="brand-subtitle">CONSTRUCTION &amp; ENGINEERING</span>
-          <span class="brand-tagline">Building Tomorrow, Together</span>
-        </span>
+        <img class="brand-image" src="assets/header.png" alt="Vertex Construction &amp; Engineering — Building Tomorrow, Together">
       </a>
       <div class="footer-contact">
-        <h2>Office</h2>
+        <h2>Visit us</h2>
         <address>Office No. 12, 3rd Floor,<br>Business Tower, Industrial Area,<br>Islamabad, Pakistan</address>
       </div>
       <div class="footer-contact">
-        <h2>Contact</h2>
-        <a href="mailto:info@vertexce.org">info@vertexce.org</a>
-        <a href="mailto:hr@vertexce.org">hr@vertexce.org</a>
-        <a href="https://www.vertexce.org" target="_blank" rel="noopener noreferrer">www.vertexce.org</a>
+        <h2>Get in touch</h2>
+        <div class="footer-email-row"><span>General enquiries</span><a href="mailto:info@vertexce.org">info@vertexce.org</a></div>
+        <div class="footer-email-row"><span>Careers</span><a href="mailto:hr@vertexce.org">hr@vertexce.org</a></div>
       </div>
       <a class="back-top" href="#home">Back to top <span aria-hidden="true">↑</span></a>
     </div>
