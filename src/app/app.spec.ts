@@ -19,7 +19,7 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Built on trust.');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Quality in every weld.');
     expect(compiled.querySelector('nav a[href="#services"]')).toBeTruthy();
   });
 });
