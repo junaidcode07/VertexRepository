@@ -15,10 +15,11 @@ describe('App', () => {
     expect(app).toBeTruthy();
   });
 
-  it('should render title', async () => {
+  it('should render the Vertex home page', async () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, vertex');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Built on trust.');
+    expect(compiled.querySelector('nav a[href="#services"]')).toBeTruthy();
   });
 });
